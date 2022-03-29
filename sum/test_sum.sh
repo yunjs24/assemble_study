@@ -1,0 +1,1 @@
+gcc -S -fno-stack-protector -mpreferred-stack-boundary=4 -z execstack -o sum.a sum.c
